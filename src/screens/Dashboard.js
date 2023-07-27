@@ -1,11 +1,9 @@
-import { Box, Grid, Link, Flex, Heading, Text, Button } from "@chakra-ui/react";
+import { Grid, Flex, Heading, Button } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { Link as RouterLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Apis } from "../api/backendApi";
 import Course from "../components/Course";
-import Loader from "../components/Loader";
-import Message from "../components/Message";
 
 const Dashboard = () => {
   const navigate = useNavigate();
