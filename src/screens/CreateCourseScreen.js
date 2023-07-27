@@ -3,11 +3,9 @@ import {
   Button,
   Flex,
   Heading,
-  Text,
   FormControl,
   FormLabel,
   Input,
-  Link,
   Spacer,
 } from "@chakra-ui/react";
 import { useState } from "react";

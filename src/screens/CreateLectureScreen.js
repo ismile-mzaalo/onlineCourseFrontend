@@ -1,20 +1,13 @@
 import axios from "axios";
 import {
   Flex,
-  Grid,
-  Image,
   Heading,
   Input,
   Spacer,
-  Text,
   Button,
-  Divider,
   Select,
-  Box,
   FormControl,
   FormLabel,
-  Textarea,
-  Link,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import FormContainer from "../components/FormContainer";
